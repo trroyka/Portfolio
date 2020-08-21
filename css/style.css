@@ -4,6 +4,7 @@
 
 img {
     max-width: 100%;
+    height: auto;
 }
 
 body {
@@ -209,7 +210,8 @@ body {
 
 .project-image {
     width: 338px;
-    height: 268px;
+    height: auto;
+    border-radius: 6px;
 }
 
 .project-text {
@@ -344,6 +346,12 @@ body {
         height: 300px;
         border-width: 10px;
     }
+    .contacts-form{        
+        margin-right: 30px;
+    }
+    .project-image{
+        margin-right: 30px;
+    }
 }
 
 @media(max-width: 836px) {
@@ -373,6 +381,8 @@ body {
     }
 
     .project-image {
+        width: 100%;
+        height: auto;
         margin-bottom: 46px;
     }
 
@@ -384,6 +394,7 @@ body {
     .contacts-form {
         margin-bottom: 58px;
     }
+    
 
 }
 
@@ -460,8 +471,15 @@ body {
     .project-paragraph{
         font-size: 14px;
     }
+    .project-image{
+        align-items: center;
+        height: auto;
+    }
+
     .contacts-form{
         padding: 40px 19px;
+        margin: auto;
+        margin-bottom: 58px;
     }
     .form-title{
         font-size: 15px;
